@@ -1,4 +1,4 @@
-# tagdbDatabase
+# tagdb database
 ## Little tag-Database for the terminal
 ### Usage
 Print help message:

@@ -17,7 +17,7 @@ Delete tag with ALL content:
     
     tagdb -d <tag>
     
-### How to build
+### BUILD
 Right now you will have to compile by yourself, but I will add a makefile soon.
 * First compile the c++ file with:
 
@@ -30,7 +30,7 @@ Right now you will have to compile by yourself, but I will add a makefile soon.
 
         cd <preferred_folder_path>
         ./tagdb
-### Add tagdb to your #PATH
+### Add to $PATH
 * Execute the provided shellscript (it will edit the .bashrc file in your homedirectory)
         
         sh inject_path.sh

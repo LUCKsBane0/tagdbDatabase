@@ -4,4 +4,4 @@ Usage:
 
   tagdb -h: Print Help Message
   
-  tagdb -a <tag> <Content>: Add a new tag with content to the database
+  tagdb -a tag Content : Add a new tag with content to the database

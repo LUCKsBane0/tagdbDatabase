@@ -32,4 +32,8 @@ Right now you will have to compile by yourself, but I will add a makefile soon.
         ./tagdb
 ### Add tagdb to your #PATH
 * Execute the provided shellscript (it will edit the .bashrc file in your homedirectory)
-afte
+        
+        sh inject_path.sh
+* Now you can access tagdb in the shell directly
+        
+        tagdb <args>

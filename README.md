@@ -26,3 +26,10 @@ Right now you will have to compile by yourself, but I will add a makefile soon.
 
         cd tagdbDatabase
         mv tagdb <preferred_folder_path>
+* Execute the binary in the preferred folder
+
+        cd <preferred_folder_path>
+        ./tagdb
+### Add tagdb to your #PATH
+* Execute the provided shellscript (it will edit the .bashrc file in your homedirectory)
+afte

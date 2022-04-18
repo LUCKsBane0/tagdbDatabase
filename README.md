@@ -23,4 +23,6 @@ Right now you will have to compile by yourself, but I will add a makefile soon.
 
         g++ -o tagdb main.cpp
 * Then move the binary file to the folder you want to store your database in
-* 
+
+        cd tagdbDatabase
+        mv tagdb <preferred_folder_path>

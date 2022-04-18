@@ -1,6 +1,6 @@
 # tagdbDatabase
 ## Little tag-Database for the terminal
-#### Usage
+### Usage
 Print help message:
 
     tagdb -h

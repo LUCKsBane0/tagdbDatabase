@@ -21,7 +21,7 @@ Delete tag with ALL content:
 Right now you will have to compile by yourself, but I will add a makefile soon.
 * First compile the c++ file with:
 
-        g++ -o tagdb main.cpp
+        g++ -o tagdb tagdb.cpp
 * Then move the binary file to the folder you want to store your database in
 
         cd tagdbDatabase

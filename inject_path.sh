@@ -1,4 +1,6 @@
 #!/bin/bash
-cd "$(dirname "$0")"
-/bin/pwd >> ~/.bashrc
+cd "$$(dirname "$0")"
+path=$(/bin/pwd)
+temp="export PATH=${path}"
+echo "$temp">>~/.bashrc
 echo "alias tagdb= 'tagdb'" >> ~/.bashrc

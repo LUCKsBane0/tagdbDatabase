@@ -121,7 +121,7 @@ int main(int argc,char**argv) {
             }
         }
     }
-    if(option == "-d"){
+    if(option == "-dt"){
     string p_deltags = argv[2];
     list<string> deltags = gettags(p_deltags);
     list<string> ftags;
@@ -142,6 +142,8 @@ int main(int argc,char**argv) {
         remove("database");
         rename("database_temp","database");
     }
+    if(option == "-dc"){
 
+    }
     return 0;
 }

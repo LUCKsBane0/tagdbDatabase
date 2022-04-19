@@ -31,7 +31,7 @@ Right now you will have to compile by yourself, but I will add a makefile soon.
         cd <preferred_folder_path>
         ./tagdb
 ### Add to $PATH
-* Execute the provided shellscript (it will edit the .bashrc file in your homedirectory)
+* Execute the provided shellscript (it will edit the .bashrc file in your home directory)
         
         sh inject_path.sh
 * Now you can access tagdb in the shell directly

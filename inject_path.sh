@@ -1,5 +1,5 @@
 #!/bin/bash
-cd "$$(dirname "$0")"
+cd "$(dirname "$0")"
 path=$(/bin/pwd)
 temp="export PATH=${path}"
 echo "$temp">>~/.bashrc

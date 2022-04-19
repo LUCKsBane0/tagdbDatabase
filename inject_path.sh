@@ -1,3 +1,4 @@
 #!/bin/bash
-echo export $(realpath $0) >> ~/.bashrc
+echo export cd "$(dirname "$0")"
+/bin/pwd >> ~/.bashrc
 echo "alias tagdb= 'tagdb'" >> ~/.bashrc

@@ -15,8 +15,21 @@ Search for tags in database:
     
 Delete tag with ALL content:
     
-    tagdb -d <tag>
-    
+    tagdb -dt <tag>
+Delete certain content of tag:
+
+    tagdb -dc <tag> <content_line_number>
+List all tags without content (WIP!):
+
+    tagdb -l 
+#### NOTE
+
+If multiple tags are given to -q and -d(dt & dc)the program will detect tags if ALL or less tags match.
+
+    EXAMPLE:  tagdb -a testtag1,testtag2 testcontent
+    MATCH:    tagdb -q testtag1
+    MATCH:    tagdb -q testtag1,testtag2
+    NO MATCH: tagdb -q testtag1,testtag3
 ### BUILD
 Right now you will have to compile by yourself, but I will add a makefile soon.
 * First compile the c++ file with:

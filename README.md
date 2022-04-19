@@ -34,10 +34,10 @@ If multiple tags are given to -q and -d(dt & dc)the program will detect tags if 
 Right now you will have to compile by yourself, but I will add a makefile soon.
 * First compile the c++ file with:
 
+        cd tagdbDatabase
         g++ -o tagdb tagdb.cpp
 * Then move the binary file to the folder you want to store your database in
 
-        cd tagdbDatabase
         mv tagdb <preferred_folder_path>
 * Execute the binary in the preferred folder
 

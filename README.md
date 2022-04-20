@@ -5,9 +5,9 @@ Print help message:
 
     tagdb -h
     
-Add tag to database:
+Add tags to database:
  
-    tagdb -a <tag> <content>
+    tagdb -a <tag>,<tag>... <content>
 
 Search for tags in database:
 

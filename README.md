@@ -19,7 +19,7 @@ Delete tag with ALL content:
 Delete certain content of tag:
 
     tagdb -dc <tag> <content_line_number>
-List all tags without content (WIP!):
+List all tags without content:
 
     tagdb -l 
 #### NOTE

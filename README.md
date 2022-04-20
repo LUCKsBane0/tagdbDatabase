@@ -13,9 +13,9 @@ Search for tags in database:
 
     tagdb -q <tag>,<tag>... -q <tag>,<tag>...
     
-Delete tag with ALL content:
+Delete tags with ALL content:
     
-    tagdb -dt <tag>
+    tagdb -dt <tag>,<tag>...
 Delete certain content of tag:
 
     tagdb -dc <tag> <content_line_number>

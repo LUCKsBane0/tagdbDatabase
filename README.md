@@ -11,7 +11,7 @@ Add tag to database:
 
 Search for tags in database:
 
-    tagdb -q <tag> -q <tag>
+    tagdb -q <tag>,<tag>... -q <tag>,<tag>...
     
 Delete tag with ALL content:
     

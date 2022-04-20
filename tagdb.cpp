@@ -192,7 +192,20 @@ int main(int argc,char**argv) {
         rename("database_temp","database");
     }
     if(option == "-l"){
-    //e
+    ifstream in("database");
+    string lines;
+    int counter = 0;
+    list<string> ftags;
+    list<string> finaltags;
+        while (getline(in, lines)){
+             finaltags.merge(gettags(lines.substr(0,lines.find(" "))));
+         }
+        finaltags.sort();
+        finaltags.unique();
+        list<string>::iterator it_a;
+        for(it_a = finaltags.begin();it_a != finaltags.end(); ++it_a){
+            cout << ++counter << " " << *it_a << "\n";
+        }
     }
     return 0;
 }

@@ -5,21 +5,21 @@ Print help message:
 
     tagdb -h
     
-Add tag to database:
+Add tags to database:
  
-    tagdb -a <tag> <content>
+    tagdb -a <tag>,<tag>... <content>
 
 Search for tags in database:
 
-    tagdb -q <tag> -q <tag>
+    tagdb -q <tag>,<tag>... -q <tag>,<tag>...
     
-Delete tag with ALL content:
+Delete tags with ALL content:
     
-    tagdb -dt <tag>
+    tagdb -dt <tag>,<tag>...
 Delete certain content of tag:
 
     tagdb -dc <tag> <content_line_number>
-List all tags without content (WIP!):
+List all tags without content:
 
     tagdb -l 
 #### NOTE
